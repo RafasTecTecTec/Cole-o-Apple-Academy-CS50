@@ -1,0 +1,22 @@
+sort1 uses: Bubble
+
+REVERSED : 0m5,147s
+SORTED : 0m0,718s
+
+How do you know?:  It was the fastest running a sorted list, wich means it stoped after 1 iteration
+wich is what happens with a bubble sort being run in a sorted list.
+
+sort2 uses: MERGE
+
+REVERSED : 0m0,768s
+SORTED : 0m0,688s
+
+How do you know?: It was the most eficient of the three in random/reversed cases, making it more eficient in
+the most common problems we would come across in the day to day of a programmer.
+
+sort3 uses: Selection
+
+REVERSED : 0m2,688s
+SORTED : 0m2,556s
+
+How do you know?: The only option left, not very good at any specific listing and runnin at n^2 in all cases.
