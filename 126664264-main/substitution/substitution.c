@@ -55,7 +55,6 @@ int checks(string s)
     {
         return 1;
     }
-
     return 0;
 }
 
@@ -63,9 +62,7 @@ int checkv(string s)
 {
     for (int i = 0; i < 26; i++)
     {
-
         int count = 0;
-
         for (int j = 0; j < 26; j++)
         {
             if (tolower(s[i]) == tolower(s[j]))
@@ -111,6 +108,5 @@ void cypherm(string t, string a)
             printf("%c", t[i]);
         }
     }
-
     printf("\n");
 }

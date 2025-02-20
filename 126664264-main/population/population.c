@@ -9,7 +9,6 @@ int main(void)
 
     do
     {
-
         ni = get_int("Numero de Lhamas Inicial: ");
     }
 
@@ -21,7 +20,6 @@ int main(void)
 
     do
     {
-
         nf = get_int("Numero de Lhamas Final: ");
     }
 
